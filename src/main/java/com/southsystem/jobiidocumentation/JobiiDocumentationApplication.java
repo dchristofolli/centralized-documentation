@@ -7,7 +7,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableSwagger2
-@EnableConfigurationProperties({SwaggerServicesConfig.class, SwaggerServicesConfig.SwaggerServices.class})
+@EnableConfigurationProperties({SwaggerServicesConfig.class, SwaggerServices.class})
 public class JobiiDocumentationApplication {
     public static void main(String[] args) {
         SpringApplication.run(JobiiDocumentationApplication.class, args);
