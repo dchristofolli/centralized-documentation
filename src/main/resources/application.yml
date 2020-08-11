@@ -1,0 +1,17 @@
+---
+info:
+  component: Single Swagger Documentation for MicroServices
+
+spring:
+  profiles: default
+
+documentation:
+  baseurl: http://localhost
+  swagger:
+    services:
+      - name: Jobii File Service
+        url: ${documentation.baseurl}:8888/v3/api-docs
+        version: 1.0
+      - name: Jobii Professionals
+        url: ${documentation.baseurl}:8083/v3/api-docs
+        version: 1.0
