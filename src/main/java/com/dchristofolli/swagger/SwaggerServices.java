@@ -1,4 +1,4 @@
-package com.southsystem.jobiidocumentation;
+package com.dchristofolli.swagger;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

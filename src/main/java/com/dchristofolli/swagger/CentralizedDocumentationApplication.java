@@ -1,4 +1,4 @@
-package com.southsystem.jobiidocumentation;
+package com.dchristofolli.swagger;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,8 +8,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @SpringBootApplication
 @EnableSwagger2
 @EnableConfigurationProperties({SwaggerServicesConfig.class, SwaggerServices.class})
-public class JobiiDocumentationApplication {
+public class CentralizedDocumentationApplication {
     public static void main(String[] args) {
-        SpringApplication.run(JobiiDocumentationApplication.class, args);
+        SpringApplication.run(CentralizedDocumentationApplication.class, args);
     }
 }

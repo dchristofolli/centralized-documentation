@@ -1,4 +1,4 @@
-package com.southsystem.jobiidocumentation;
+package com.dchristofolli.swagger;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Primary;
